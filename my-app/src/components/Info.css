@@ -1,4 +1,92 @@
-.orderdList{
-    background-color: rgb(88, 88, 88);
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( 120deg, rgb(78, 78, 78), rgb(164, 232, 255));
+}
+
+
+
+.title-page {
+    margin: 0px;
+    padding: 0px, 50px;
+    background-image: linear-gradient( 100deg, rgb(64, 72, 73), rgb(164, 232, 255));
+    border-radius: 10px;
+    font-family: Fatface;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0px 0px, 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 203, 253)
+}
+
+.header-name{
+    margin: 0px;
+    padding: 0px;
+    color:aqua;
+    font-family: Fatface;
+    font-weight: bold;
+}
+
+.title-occp{
+    margin: 0px;
+    padding: 0px;
+    line-height: 4;
+    color:aqua;
+    font-family: Fatface;
+    font-weight: bold;
+   
+}
+
+.info-bar{
+    margin: 0px, 0px;
+    padding: 0px, 0px;
+    font-family: Fatface;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgb(0, 9, 10);
+    border-radius: 3px;
+    /* color: rgb(8, 197, 245); */
+}
+
+.info-bar ul{
+   display: flex;
+}
+
+.info-bar a{
+    padding: 10px;
+    margin: 0 5px;
+}
+.info-bar a:hover{
+   border-bottom: 2px rgb(16, 252, 252) solid;
+}
+.dropdown-menu{
+    background-image: linear-gradient( 100deg, rgb(64, 72, 73), rgb(164, 232, 255));
+
+}
+.dropdown-item{
+ background-image: linear-gradient( 100deg, rgb(64, 72, 73), rgb(164, 232, 255));
+}
+
+.Card-body{
+    font-family: Fatface;
+    font-weight: bold;
+    background-image: linear-gradient( 200deg, rgba(63, 67, 68, 0.699), rgb(164, 232, 255));
 }
