@@ -9,9 +9,9 @@ import DropdownItem from "react-bootstrap/esm/DropdownItem";
 function Info() {
   return (
     <div className="body">
-     <Container className="full-body">
+     
 
-          <h1 className="title-page">My Info</h1>
+          <h1 className="title-head">My Info</h1>
      
         <Container className="info-bar">
           <h1 className="header-name">Errol T Toney. Jr</h1>
@@ -25,6 +25,7 @@ function Info() {
                 </li>
             </ul>
         </Container>
+        <Container className="card-container">
         <DropdownButton title="About Me">
         <DropdownItem className="dropdown-item">
         <Card style={{ width: '70rem' }}>
@@ -40,8 +41,37 @@ function Info() {
         </DropdownItem>
         </DropdownButton>
 
+        <DropdownButton title="Skills">
+        <DropdownItem className="dropdown-item">
+        <Card style={{ width: '10rem' }}>
+          <Card.Body className="Card-body">
+          <Card.Text>
+          <ul>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Node.js</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Typescript</li>
+            <li>GIT</li>
+            <li>PHP</li>
+            <li>UI/UX</li>
+            <li>APIs</li>
+            <li>Data Structures</li>
+            <li>JQuery</li>
+            <li>WebPack</li>
+            <li>Painting</li>
+          </ul>
+          </Card.Text>
+          </Card.Body>
+        </Card>
+        </DropdownItem>
+        </DropdownButton>
+        </Container>
 
-     </Container>
     </div>
   );
 }
